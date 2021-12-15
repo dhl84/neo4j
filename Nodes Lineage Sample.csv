@@ -1,0 +1,110 @@
+﻿labels(n),n.Name,n.Label,n.Description
+[System],Risk Calculation Engine,Risk Calculation Engine,null
+[Data Feed],feed 11,feed 11,null
+[System Data Concept],[Exposure Calculator.] Exposure,Exposure,null
+[System Data Concept],[Exposure Calculator.] Financial Instrument,Financial Instrument,null
+[System Data Element],[Exposure Calculator.Exposure.] Exposure Amount,Exposure Amount,null
+[System Data Element],[Exposure Calculator.Financial Instrument.] Instrument ID,Instrument ID,null
+[Business Data Element],[Financial Instrument.] Instrument Maturity Date,Maturity Date,"The final date on which a loan, principal or other financial instrument must be repaid in total by the issuer of a debt. 
+"
+[Business Data Element],[Financial Instrument.] Instrument Type,Underlying Asset Type for Financial Instrument,"Divided in two major categories, Cash instruments are determined by the markets, Derivative instruments are determined by underlying components.
+"
+[System Data Concept],[General Ledger.] Financial Instrument,Financial Instrument,null
+[System Data Concept],[General Ledger.] Position,Position,null
+[System Data Element],[General Ledger.Financial Instrument.] Instrument ID,Instrument ID,null
+[System Data Element],[General Ledger.Financial Instrument.] Instrument Maturity Date,Instrument Maturity Date,null
+[System Data Element],[General Ledger.Financial Instrument.] Instrument Type,Instrument Type,null
+[System Data Element],[General Ledger.Position.] Notional Value Amount,Notional Value Amount,null
+[System Data Element],[General Ledger.Position.Notional Value Amount.] Market Value Price,Market Value Price,null
+[System Data Concept],[Instrument Reference Data Master.] Financial Instrument,Financial Instrument,null
+[System Data Concept],[Instrument Reference Data Master.] Rating,Rating,null
+[System Data Element],[Instrument Reference Data Master.Financial Instrument.] Instrument ID,Instrument ID,null
+[System Data Element],[Instrument Reference Data Master.Financial Instrument.] Instrument Maturity Date,Instrument Maturity Date,null
+[System Data Element],[Instrument Reference Data Master.Financial Instrument.] Instrument Type,Instrument Type,null
+[System Data Element],[Instrument Reference Data Master.Rating.] Rating Value,Rating Value,null
+[System Data Concept],[Risk Calculation Engine.] Exposure,Exposure,null
+[System Data Element],[Risk Calculation Engine.Exposure.] Stress Exposure Amount,Stress Exposure Amount,null
+[System Data Concept],[Risk Scenario Hub.] Stress Scenario,Stress Scenario,null
+[System Data Element],[Risk Scenario Hub.Stress Scenario.] Stress Scenario Value,Stress Scenario Value,null
+[System Data Concept],[Trade Capture System (Equities).] Financial Instrument,Financial Instrument,null
+[System Data Concept],[Trade Capture System (Equities).] Position,Position,null
+[System Data Element],[Trade Capture System (Equities).Financial Instrument.] Instrument ID,Instrument ID,null
+[System Data Element],[Trade Capture System (Equities).Financial Instrument.] Instrument Type,Instrument Type,null
+[System Data Element],[Trade Capture System (Equities).Position.] Notional Value Amount,Notional Value Amount,null
+[System Data Element],[Trade Capture System (Equities).Position.Notional Value Amount.] Market Value Price,Market Value Price,null
+[System Data Concept],[Trade Capture System (Fixed Income).] Financial Instrument,Financial Instrument,null
+[System Data Concept],[Trade Capture System (Fixed Income).] Position,Position,null
+[System Data Element],[Trade Capture System (Fixed Income).Financial Instrument.] Instrument ID,Instrument ID,null
+[System Data Element],[Trade Capture System (Fixed Income).Financial Instrument.] Instrument Maturity Date,Maturity Date,null
+[System Data Element],[Trade Capture System (Fixed Income).Financial Instrument.] Instrument Type,Instrument Type,null
+[System Data Element],[Trade Capture System (Fixed Income).Position.] Notional Value Amount,Notional Value Amount,null
+[System Data Element],[Trade Capture System (Fixed Income).Position.Notional Value Amount.] Market Value Price,Market Value Price,null
+[Business Data Element],{Financial Instrument.] Instrument ID,Underlying Instrument ID,"A unique identifier of financial instrument that can be assigned to instruments including common stock, options, derivatives, futures, bonds, currencies and mortgage products. "
+[Boundary Value],All/any geographies,All/any geographies,null
+[Boundary Value],All/any products,All/any products,null
+[Boundary Value],EMEA,EMEA,null
+[Boundary Set],EMEA Equities,EMEA Equities,null
+[Boundary Value],Equities,Equities,null
+[Business Data Concept],Exposure,Exposure,null
+[Business Data Element],Exposure Amount,Trade Exposure Amount,The maximum unfunded commitment of a loan asset owned by the borrower or any amount an investor stands to lose in investment should the investment fail.
+[System],Exposure Calculator,Exposure Calculator,null
+[Data Feed],feed 1,feed 1,null
+[Data Feed],feed 2,feed 2,null
+[Data Feed],feed 3,feed 3,null
+[Data Feed],feed 4,feed 4,null
+[Data Feed],feed 5,feed 5,null
+[Data Feed],feed 6,feed 6,null
+[Data Feed],feed 7,feed 7,null
+[Data Feed],feed 8,feed 8,null
+[Data Feed],feed 9,feed 9,null
+[Data Feed],feed 10,feed 10,null
+[Business Data Concept],Financial Instrument,Financial Instrument,null
+[Boundary Value],Fixed Income,Fixed Income,null
+[System],General Ledger,General Ledger,null
+[Boundary Dimension],Geography,Geography,null
+[Boundary Set],Global,Global,null
+[Boundary Set],Global Equities,Global Equities,null
+[Boundary Set],Global Fixed Income,Global Fixed Income,null
+[Business Data Element],Instrument ID,Underlying Instrument ID,A unique identifier  that can be assigned to an instrument.
+[Business Data Element],Instrument Maturity Date,Maturity Date,The final date on which an instrument must be repaid in total. 
+[System],Instrument Reference Data Master,Instrument Reference Data Master,null
+[Business Data Element],Instrument Type,Underlying Asset Type for Financial Instrument,Different instrument types act as a guarantee for the clients to conclude their business at the right time. 
+[Business Data Element],Market Value Price,Market Value Price,The price an asset would fetch in the market place or the value that an investment community gives to a particular equity or business. 
+[Business Data Element],Notional Value Amount,Gross Notional Amount,"Total underlying amount of a derivatives trade or total value of the position, which is a product of the market value and the leverage ratio. "
+[Org Unit],Operations (Reference Data),Operations (Reference Data),null
+[Business Data Concept],Position,Position,null
+[Boundary Dimension],Product,Product,null
+[Business Data Concept],Rating,Rating,null
+[Business Data Element],Rating Value,Rating Value,"A value based on detailed financial analysis of financial history, typically relating to the ability to meet debt obligations. "
+[System],Risk Scenario Hub,Risk Scenario Hub,null
+[Business Data Element],Stress Exposure Amount,Stressed Expected Exposure (CVA),A magnitude of consquences experienced from a possible disruption (stress scenario). 
+[Material Transformation],Stress Exposure Amount Calculation,Stress Exposure Amount Calculation,null
+[Business Data Concept],Stress Scenario,Stress Scenario,null
+[Business Data Element],Stress Scenario Value,Stress Scenario Value,Worth or usefulness of analysing a wide range of plausable scenarios that could adversly impact business continuity at different levels if the entity failed to respond appropriately. 
+[Boundary Set],Swiss Equities,Swiss Equities,null
+[System],Trade Capture System (Equities),Trade Capture System (Equities),null
+[System],Trade Capture System (Fixed Income),Trade Capture System (Fixed Income),null
+[Boundary Value],UK,UK,null
+[Boundary Set],UK Equities,UK Equities,null
+[Boundary Set],UK Fixed Income,UK Fixed Income,null
+[Boundary Value],US,US,null
+[Boundary Set],US Equities,US Equities,null
+[Boundary Set],US Fixed Income,US Fixed Income,null
+[Business Data Domain],Reference Data,Reference Data,null
+[Business Data Domain],Transaction Data,Transaction Data,null
+[Business Data Domain],Derived Data,Derived Data,null
+[Org Unit],Front Office (Investment Bank),Front Office (Investment Bank),null
+[Org Unit],Finance,Finance,null
+[Org Unit],Risk,Risk,null
+[Boundary Set],EMEA All Products,EMEA All Products,null
+[Boundary Set],EMEA Fixed Income,EMEA Fixed Income,null
+[Boundary Set],Americas All Products,Americas All Products,null
+[Boundary Set],Americas Fixed Income,Americas Fixed Income,null
+[Boundary Set],UK All Products,UK All Products,null
+[Business Data Domain],Instrument Domain,Instrument,null
+[Business Data Concept],Equities Instrument,null,null
+[Report],FRY-14Q,null,null
+[Regulator],FED,null,null
+[Report],FRY-9C,null,null
+[Report],FRY-14A,null,null
+[System],Reporting System,Reporting System,null
